@@ -1,5 +1,6 @@
 import pytest
 
+from PageObjects.Drag_and_Drop_Menu_Objects import Drag_and_Drop_Objects
 from PageObjects.Relationship_Menu_Objects import Relationship_Objects
 from PageObjects.Selectable_Menu_Objects import Selectable_Objects
 from PageObjects.Table_With_Cheakbox_Menu_Objects import Table_With_Cheakbox_Objects
@@ -95,8 +96,43 @@ class Test:
 
     @pytest.mark.Selectable
     def test_selectable(self, setup):
+        self.log.info("Test Selectable is Started")
+        self.driver = setup
+        self.log.info("Invoking Browser and Opening URL")
         self.driver = setup
         S = Selectable_Objects(self.driver)
+        R = Relationship_Objects(self.driver)
 
         S.selectable()
+        self.log.info("Clicking on Selectable Option")
         S.items()
+        self.log.info("Clicking on one by one itams")
+        S.double_ckick()
+        self.log.info("Clicking on Double Click Option")
+        self.log.info(f"Displayed Alert Message:{S.double_ckick()}")
+        R.status("Selectable")
+        self.log.info("Final Status of The Page is Captured")
+        self.driver.close()
+        self.log.info("Test Selectable is Completed")
+    # ------------------------------------------
+
+    @pytest.mark.Drag_and_Drop
+    def test_drag_and_drop(self, setup):
+        self.log.info("Test Drag and Drop is Started")
+        self.driver = setup
+        self.log.info("Invoking Browser and Opening URL")
+        D = Drag_and_Drop_Objects(self.driver)
+        R = Relationship_Objects(self.driver)
+
+        D.drag_and_drop()
+        self.log.info("Clicking on drag_and_drop Option")
+        self.driver.execute_script("window.scrollBy(0, 1500)")
+        D.drag_and_drop1()
+        self.log.info("Eleement is Drag to Target/Drop Position")
+        D.resize()
+        self.log.info("Changing The Size of an Selected Element")
+        R.status("Drag_And_Drop")
+        self.log.info("Final Status of The Page is Captured")
+        self.driver.close()
+        self.log.info("Test Drag and Drop is Completed")
+    # ------------------------------------------
