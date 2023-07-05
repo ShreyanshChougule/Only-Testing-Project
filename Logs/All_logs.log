@@ -1,0 +1,29 @@
+2023-07-05 12:47:45,978 : INFO : Test : test_relationship : 13 : Test Relationship is Started
+2023-07-05 12:47:46,005 : INFO : Test : test_relationship : 15 : Invoking Browser and Opening URL
+2023-07-05 12:47:48,812 : INFO : Test : test_relationship : 20 : Clicking on Relationship Button
+2023-07-05 12:47:49,384 : INFO : Test : test_relationship : 22 : Entering Grand Parent-1 Details as: A
+2023-07-05 12:47:49,578 : INFO : Test : test_relationship : 24 : Entering Parent-1 Details as: B
+2023-07-05 12:47:49,752 : INFO : Test : test_relationship : 26 : Entering Child-1 Details as: C
+2023-07-05 12:47:49,930 : INFO : Test : test_relationship : 29 : Entering Grand Parent-2 Details as: AA
+2023-07-05 12:47:50,108 : INFO : Test : test_relationship : 31 : Entering Parent-2 Details as: BB
+2023-07-05 12:47:50,281 : INFO : Test : test_relationship : 33 : Entering Child-2 Details as: CC
+2023-07-05 12:47:54,768 : INFO : Test : test_relationship : 35 : Status of The Page is Captured
+2023-07-05 12:47:54,885 : INFO : Test : test_relationship : 37 : Test Relationship is Completed
+2023-07-05 13:19:19,950 : INFO : Test : test_tooltip : 43 : Test Tooltip is Started
+2023-07-05 13:19:19,977 : INFO : Test : test_tooltip : 45 : Invoking Browser and Opening URL
+2023-07-05 13:19:22,723 : INFO : Test : test_tooltip : 50 : Clicking on Tooltip Button
+2023-07-05 13:19:23,140 : INFO : Test : test_tooltip : 52 : Entering Name as: Pandu
+2023-07-05 13:19:23,336 : INFO : Test : test_tooltip : 54 : Entering Surname as: Havaldar
+2023-07-05 13:19:23,578 : INFO : Test : test_tooltip : 56 : Entering Address as: Pune, Maharashtra, India.
+2023-07-05 13:19:30,721 : INFO : Test : test_tooltip : 58 : Status of The Page is Captured
+2023-07-05 13:19:30,792 : INFO : Test : test_tooltip : 60 : Test Tooltip is Completed
+2023-07-05 13:38:41,015 : INFO : Test : test_table_with_cheakbox : 71 : Test Table With Cheakbox is Started
+2023-07-05 13:38:41,015 : INFO : Test : test_table_with_cheakbox : 73 : Invoking Browser and Opening URL
+2023-07-05 13:38:42,251 : INFO : Test : test_table_with_cheakbox : 78 : Clicking on Table With Cheakbox Option
+2023-07-05 13:38:42,369 : INFO : Test : test_table_with_cheakbox : 80 : Clicking on Cat Option
+2023-07-05 13:38:42,443 : INFO : Test : test_table_with_cheakbox : 82 : Clicking on Dog Option
+2023-07-05 13:38:42,516 : INFO : Test : test_table_with_cheakbox : 84 : Clicking on Cow Option
+2023-07-05 13:38:42,595 : INFO : Test : test_table_with_cheakbox : 86 : Clicking on Lion Option
+2023-07-05 13:38:42,674 : INFO : Test : test_table_with_cheakbox : 88 : Clicking on Tiger Option
+2023-07-05 13:38:46,935 : INFO : Test : test_table_with_cheakbox : 90 : Status of The Page is Captured
+2023-07-05 13:38:46,969 : INFO : Test : test_table_with_cheakbox : 92 : Test Table With Cheakbox is Completed
