@@ -27,3 +27,56 @@
 2023-07-05 13:38:42,674 : INFO : Test : test_table_with_cheakbox : 88 : Clicking on Tiger Option
 2023-07-05 13:38:46,935 : INFO : Test : test_table_with_cheakbox : 90 : Status of The Page is Captured
 2023-07-05 13:38:46,969 : INFO : Test : test_table_with_cheakbox : 92 : Test Table With Cheakbox is Completed
+2023-07-05 15:36:35,638 : INFO : Test : test_selectable : 98 : Test Selectable is Started
+2023-07-05 15:36:35,640 : INFO : Test : test_selectable : 100 : Invoking Browser and Opening URL
+2023-07-05 15:36:39,426 : INFO : Test : test_selectable : 106 : Clicking on Selectable Option
+2023-07-05 15:36:40,613 : INFO : Test : test_selectable : 108 : Clicking on one by one itams
+2023-07-05 15:36:40,944 : INFO : Test : test_selectable : 110 : Clicking on Double Click Option
+2023-07-05 15:36:41,278 : INFO : Test : test_selectable : 111 : Displayed Alert Message:You double clicked me.. Thank You..
+2023-07-05 15:36:45,442 : INFO : Test : test_selectable : 113 : Final Status of The Page is Captured
+2023-07-05 15:36:45,479 : INFO : Test : test_selectable : 115 : Test Selectable is Completed
+2023-07-05 20:15:36,573 : INFO : Test : test_drag_and_drop : 121 : Test Drag and Drop is Started
+2023-07-05 20:15:36,591 : INFO : Test : test_drag_and_drop : 123 : Invoking Browser and Opening URL
+2023-07-05 20:15:38,460 : INFO : Test : test_drag_and_drop : 128 : Clicking on drag_and_drop Option
+2023-07-05 20:15:39,140 : INFO : Test : test_drag_and_drop : 131 : Eleement is Drag to Target/Drop Position
+2023-07-05 20:15:39,753 : INFO : Test : test_drag_and_drop : 133 : Changing The Size of an Selected Element
+2023-07-05 20:15:43,998 : INFO : Test : test_drag_and_drop : 135 : Final Status of The Page is Captured
+2023-07-05 20:15:44,034 : INFO : Test : test_drag_and_drop : 137 : Test Drag and Drop is Completed
+2023-07-06 11:02:18,990 : INFO : Test : test_relationship : 19 : Test Relationship is Started
+2023-07-06 11:02:19,001 : INFO : Test : test_relationship : 21 : Invoking Browser and Opening URL
+2023-07-06 11:02:21,208 : INFO : Test : test_relationship : 25 : Clicking on Relationship Button
+2023-07-06 11:02:21,602 : INFO : Test : test_relationship : 27 : Entering Grand Parent-1 Details as: A
+2023-07-06 11:02:21,785 : INFO : Test : test_relationship : 29 : Entering Parent-1 Details as: B
+2023-07-06 11:02:21,969 : INFO : Test : test_relationship : 31 : Entering Child-1 Details as: C
+2023-07-06 11:02:22,144 : INFO : Test : test_relationship : 34 : Entering Grand Parent-2 Details as: AA
+2023-07-06 11:02:22,327 : INFO : Test : test_relationship : 36 : Entering Parent-2 Details as: BB
+2023-07-06 11:02:22,558 : INFO : Test : test_relationship : 38 : Entering Child-2 Details as: CC
+2023-07-06 11:02:26,130 : INFO : Test : test_relationship : 40 : Status of The Page is Captured
+2023-07-06 11:02:26,176 : INFO : Test : test_relationship : 42 : Test Relationship is Completed
+2023-07-06 11:02:37,977 : INFO : Test : test_tooltip : 48 : Test Tooltip is Started
+2023-07-06 11:02:37,978 : INFO : Test : test_tooltip : 50 : Invoking Browser and Opening URL
+2023-07-06 11:02:39,960 : INFO : Test : test_tooltip : 55 : Clicking on Tooltip Button
+2023-07-06 11:02:40,229 : INFO : Test : test_tooltip : 57 : Entering Name as: Pandu
+2023-07-06 11:02:40,427 : INFO : Test : test_tooltip : 59 : Entering Surname as: Havaldar
+2023-07-06 11:02:40,650 : INFO : Test : test_tooltip : 61 : Entering Address as: Pune, Maharashtra, India.
+2023-07-06 11:02:46,211 : INFO : Test : test_tooltip : 63 : Status of The Page is Captured
+2023-07-06 11:02:46,245 : INFO : Test : test_tooltip : 65 : Test Tooltip is Completed
+2023-07-06 11:11:30,735 : INFO : Test : test_relationship : 19 : Test Relationship is Started
+2023-07-06 11:11:30,768 : INFO : Test : test_relationship : 21 : Invoking Browser and Opening URL
+2023-07-06 11:11:32,768 : INFO : Test : test_relationship : 25 : Clicking on Relationship Button
+2023-07-06 11:11:33,071 : INFO : Test : test_relationship : 27 : Entering Grand Parent-1 Details as: A
+2023-07-06 11:11:33,247 : INFO : Test : test_relationship : 29 : Entering Parent-1 Details as: B
+2023-07-06 11:11:33,425 : INFO : Test : test_relationship : 31 : Entering Child-1 Details as: C
+2023-07-06 11:11:33,598 : INFO : Test : test_relationship : 34 : Entering Grand Parent-2 Details as: AA
+2023-07-06 11:11:33,773 : INFO : Test : test_relationship : 36 : Entering Parent-2 Details as: BB
+2023-07-06 11:11:33,956 : INFO : Test : test_relationship : 38 : Entering Child-2 Details as: CC
+2023-07-06 11:11:37,684 : INFO : Test : test_relationship : 40 : Status of The Page is Captured
+2023-07-06 11:11:37,738 : INFO : Test : test_relationship : 42 : Test Relationship is Completed
+2023-07-06 11:11:49,349 : INFO : Test : test_tooltip : 48 : Test Tooltip is Started
+2023-07-06 11:11:49,350 : INFO : Test : test_tooltip : 50 : Invoking Browser and Opening URL
+2023-07-06 11:11:51,565 : INFO : Test : test_tooltip : 55 : Clicking on Tooltip Button
+2023-07-06 11:11:51,878 : INFO : Test : test_tooltip : 57 : Entering Name as: Pandu
+2023-07-06 11:11:52,082 : INFO : Test : test_tooltip : 59 : Entering Surname as: Havaldar
+2023-07-06 11:11:52,319 : INFO : Test : test_tooltip : 61 : Entering Address as: Pune, Maharashtra, India.
+2023-07-06 11:11:55,981 : INFO : Test : test_tooltip : 63 : Status of The Page is Captured
+2023-07-06 11:11:56,016 : INFO : Test : test_tooltip : 65 : Test Tooltip is Completed
