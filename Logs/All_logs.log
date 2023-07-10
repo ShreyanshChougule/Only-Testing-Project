@@ -42,6 +42,7 @@
 2023-07-05 20:15:39,753 : INFO : Test : test_drag_and_drop : 133 : Changing The Size of an Selected Element
 2023-07-05 20:15:43,998 : INFO : Test : test_drag_and_drop : 135 : Final Status of The Page is Captured
 2023-07-05 20:15:44,034 : INFO : Test : test_drag_and_drop : 137 : Test Drag and Drop is Completed
+<<<<<<< HEAD
 2023-07-06 11:02:18,990 : INFO : Test : test_relationship : 19 : Test Relationship is Started
 2023-07-06 11:02:19,001 : INFO : Test : test_relationship : 21 : Invoking Browser and Opening URL
 2023-07-06 11:02:21,208 : INFO : Test : test_relationship : 25 : Clicking on Relationship Button
@@ -80,3 +81,5 @@
 2023-07-06 11:11:52,319 : INFO : Test : test_tooltip : 61 : Entering Address as: Pune, Maharashtra, India.
 2023-07-06 11:11:55,981 : INFO : Test : test_tooltip : 63 : Status of The Page is Captured
 2023-07-06 11:11:56,016 : INFO : Test : test_tooltip : 65 : Test Tooltip is Completed
+=======
+>>>>>>> origin/master

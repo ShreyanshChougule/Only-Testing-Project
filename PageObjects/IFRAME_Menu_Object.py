@@ -1,8 +1,4 @@
-import time
-
 from selenium.webdriver.common.by import By
-
-from Utilities.Excel_File import Excel_File_Opractions
 
 
 class IFRAME_Objects:
@@ -30,13 +26,13 @@ class IFRAME_Objects:
         self.driver = driver
 
     def iframe1(self):
-        self.driver.find_element(*Page_Objects.IFrame).click()
+        self.driver.find_element(*IFRAME_Objects.IFrame).click()
         self.driver.switch_to.frame("frame1")
-        self.driver.find_element(*Page_Objects.Cat).click()
-        self.driver.find_element(*Page_Objects.Dog).click()
-        self.driver.find_element(*Page_Objects.Cow).click()
-        self.driver.find_element(*Page_Objects.Lion).click()
-        self.driver.find_element(*Page_Objects.Tiger).click()
+        self.driver.find_element(*IFRAME_Objects.Cat).click()
+        self.driver.find_element(*IFRAME_Objects.Dog).click()
+        self.driver.find_element(*IFRAME_Objects.Cow).click()
+        self.driver.find_element(*IFRAME_Objects.Lion).click()
+        self.driver.find_element(*IFRAME_Objects.Tiger).click()
         self.driver.get_screenshot_as_file("C:\\Users\\Tejas\\Only Testing Project\\Screenshots\\Frame-1.png")
 
         self.driver.switch_to.frame("frame2")
